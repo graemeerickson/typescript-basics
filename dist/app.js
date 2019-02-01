@@ -1,11 +1,5 @@
 "use strict";
-const pizzas = 2;
-function offerDiscount(orders) {
-    return orders >= 3;
-}
-if (offerDiscount(pizzas)) {
-    console.log(`You're entitled to a discount!`);
-}
-else {
-    console.log(`Order more than 3 pizzas for a discount!`);
-}
+let coupon;
+coupon = 25;
+coupon = '25';
+coupon = true;
