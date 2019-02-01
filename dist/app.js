@@ -1,5 +1,7 @@
-"use strict";
-function orderError(error) {
-    throw new Error(error);
+let coupon = 'pizza25';
+function removeCoupon() {
+    coupon = null;
 }
-orderError('Something went wrong');
+console.log(coupon);
+removeCoupon();
+console.log(coupon);
