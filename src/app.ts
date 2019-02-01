@@ -1,7 +1,11 @@
-let sumOrder: (price: number, quantity: number) => number;
+let sumOrder: (price: number, quantity?: number) => number;
 
-sumOrder = (x, y) => x * y;
+sumOrder = (x, y) => {
+  return y ? x * y : x;
+};
 
-const sum = sumOrder(10, 10);
+let sum: number = sumOrder(10, 10);
+console.log(`Total sum: ${sum}`); // 100
 
-console.log(`Total sum: ${sum}`);
+sum = sumOrder(10);
+console.log(`Total sum: ${sum}`); // 10
