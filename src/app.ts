@@ -1,6 +1,4 @@
-const sizes: string[] = ['small', 'medium', 'large'];
-console.log(`Sizes: ${sizes}`);
+let pizza: [string, number, boolean];
 
-let toppings: Array<string>;
-toppings = ['pepperoni', 'tomato', 'bacon'];
-console.log(`Toppings: ${toppings}`);
+pizza = ['Pepperoni', 20, true];
+console.log(`Pizza tuple type: ${pizza}`);
