@@ -1,4 +1,11 @@
-let pizza: [string, number, boolean];
+type Size = 'small' | 'medium' | 'large';
+type Callback = (size: Size) => void;
 
-pizza = ['Pepperoni', 20, true];
-console.log(`Pizza tuple type: ${pizza}`);
+let pizzaSize: Size = 'small';
+
+const selectSize: Callback = x => {
+  pizzaSize = x;
+};
+
+selectSize('small');
+console.log(pizzaSize);
