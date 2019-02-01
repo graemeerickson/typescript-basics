@@ -1,7 +1,7 @@
 "use strict";
-let pizzaSize = 'small';
-const selectSize = x => {
-    pizzaSize = x;
-};
-selectSize('small');
-console.log(pizzaSize);
+const pizza = { name: 'Blazing Inferno', toppings: 5 };
+const serialized = JSON.stringify(pizza);
+function getNameFromJSON(obj) {
+    return JSON.parse(obj).toppings;
+}
+console.log(getNameFromJSON(serialized));
