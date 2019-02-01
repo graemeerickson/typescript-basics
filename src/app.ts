@@ -1,4 +1,4 @@
-let coupon = 'pizza25';
+let coupon: string | null = 'pizza25';
 
 function removeCoupon(): void {
   coupon = null;

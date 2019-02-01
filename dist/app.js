@@ -1,3 +1,4 @@
+"use strict";
 let coupon = 'pizza25';
 function removeCoupon() {
     coupon = null;
