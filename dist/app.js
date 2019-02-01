@@ -1,5 +1,4 @@
 "use strict";
-let coupon;
-coupon = 25;
-coupon = '25';
-coupon = true;
+let implicitCoupon = 'pizza25';
+let explicitCoupon;
+explicitCoupon = 'pizza25';
