@@ -1,7 +1,5 @@
 "use strict";
-let selectedTopping = 'pepperoni';
-function selectTopping(topping) {
-    selectedTopping = topping;
+function orderError(error) {
+    throw new Error(error);
 }
-selectTopping('canadian bacon');
-console.log(selectedTopping);
+orderError('Something went wrong');
