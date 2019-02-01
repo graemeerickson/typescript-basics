@@ -1,7 +1,5 @@
 "use strict";
-let pizzaSize = 'small';
-function selectSize(size) {
-    pizzaSize = size;
-}
-selectSize('medium');
-console.log(`Pizza size: ${pizzaSize}`);
+let sumOrder;
+sumOrder = (x, y) => x * y;
+const sum = sumOrder(10, 10);
+console.log(`Total sum: ${sum}`);
