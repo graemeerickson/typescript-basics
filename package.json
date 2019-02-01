@@ -20,7 +20,7 @@
     "webpack": "3.10.0",
     "webpack-dev-server": "2.9.7"
   },
-  "author": "Ultimate Angular",
+  "author": "Ultimate Courses",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/UltimateAngular/typescript-basics-seed/issues"
