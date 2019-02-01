@@ -1,8 +1,7 @@
 "use strict";
-let coupon = 'pizza25';
-function removeCoupon() {
-    coupon = null;
+let pizzaSize = 'small';
+function selectSize(size) {
+    pizzaSize = size;
 }
-console.log(coupon);
-removeCoupon();
-console.log(coupon);
+selectSize('medium');
+console.log(`Pizza size: ${pizzaSize}`);
