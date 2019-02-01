@@ -1,4 +1,7 @@
 "use strict";
-let implicitCoupon = 'pizza25';
-let explicitCoupon;
-explicitCoupon = 'pizza25';
+let selectedTopping = 'pepperoni';
+function selectTopping(topping) {
+    selectedTopping = topping;
+}
+selectTopping('canadian bacon');
+console.log(selectedTopping);
